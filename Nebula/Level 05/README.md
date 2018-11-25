@@ -1,0 +1,6 @@
+# Level05
+
+Check the flag05 home directory. You are looking for weak directory permissions
+
+To do this level, log in as the level05 account with the password level05. Files for this level can be found in /home/flag05.
+

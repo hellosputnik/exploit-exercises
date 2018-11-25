@@ -1,0 +1,8 @@
+# Level00
+
+This level requires you to find a Set User ID program that will run as the “flag00” account. You could also find this by carefully looking in top level directories in / for suspicious looking directories.
+
+Alternatively, look at the find man page.
+
+To access this level, log in as level00 with the password of level00.
+
